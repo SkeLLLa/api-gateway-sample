@@ -1,0 +1,15 @@
+.idea/
+.vscode/
+*.xxx.js
+*.log
+.*
+.git
+test
+config/local*
+*.md
+*.tar*
+.deploy
+page-cache
+k8s/
+docs/
+

@@ -1,0 +1,6 @@
+nginx/
+build/
+node_modules/
+**/*.conf
+**/*.min.*
+coverage/

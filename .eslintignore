@@ -1,0 +1,8 @@
+deploy/
+logs/
+coverage/
+node_modules/
+.idea/
+.vscode/
+**/*.xxx.js
+src
