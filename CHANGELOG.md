@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://gitlab.com/m03geek/api-gateway-sample/compare/v1.1.0...v1.2.0) (2020-05-17)
+
+### Features
+
+- **docker:** add docker image and docs ([880a6f8](https://gitlab.com/m03geek/api-gateway-sample/commit/880a6f89a1d0f01948e9256308bb87df42c07c03))
+
 ## 1.1.0 (2020-05-17)
 
 ### Features
