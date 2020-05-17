@@ -72,11 +72,11 @@ Documentation is available on http://localhost:3000/api/documentation/index.html
 1. Add credentials as `local.js`
 2. Install dependencies (to reduce size use production only deps)
 3. Build image via `docker build -t api-gateway-sample .`
-4. Run image with command `docker run -it -p 3000:3000`
+4. Run image with command `docker run -it -p 3000:3000 api-gateway-sample`
 
 #### Pre-built images
 
 Built docker images available at https://gitlab.com/m03geek/api-gateway-sample/container_registry/.
 
 Use env variables to pass credentials (those from `local.js`) to container:
-`docker run -it -e CALENDAR_TOKEN=foo CURRENCY_TOKEN=bar MAIL_TOKEN=baz registry.gitlab.com/m03geek/api-gateway-sample:v1.2.0 3000:3000`
+`docker run -it -e CALENDAR_TOKEN=foo -e CURRENCY_TOKEN=bar -e MAIL_TOKEN=baz -p 3000:3000 registry.gitlab.com/m03geek/api-gateway-sample:v1.2.0`
