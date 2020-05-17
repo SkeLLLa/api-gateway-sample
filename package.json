@@ -13,7 +13,8 @@
   },
   "license": "ISC",
   "author": "m03geek",
-  "main": ".commitlintrc.js",
+  "main": "app/index.js",
+  "bin": "bin/server.js",
   "scripts": {
     "lint": "eslint .",
     "release": "git add -A && standard-version -a",
