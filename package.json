@@ -38,7 +38,7 @@
     "cacheable-lookup": "^5.0.3",
     "config": "^3.3.1",
     "countries-list": "^2.5.4",
-    "fastify": "^2.14.1",
+    "fastify": "^2.15.1",
     "fastify-autoload": "^1.2.2",
     "fastify-oas": "^2.7.0",
     "fastify-status": "^2.1.0",
